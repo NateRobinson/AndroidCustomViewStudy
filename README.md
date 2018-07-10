@@ -7,5 +7,6 @@ A repo for note my personal Android custom view study process.
 
 ## 学习笔记
  1. [HenCoder 1-1 绘制基础 study Note](https://github.com/NateRobinson/AndroidCustomViewStudy/blob/master/docs/1-1.md)
+ 1. [HenCoder 1-2 Paint 详解 study Note](https://github.com/NateRobinson/AndroidCustomViewStudy/blob/master/docs/1-2.md)
 
 
