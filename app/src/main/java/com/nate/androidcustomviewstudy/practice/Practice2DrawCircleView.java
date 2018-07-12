@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
@@ -32,20 +33,27 @@ public class Practice2DrawCircleView extends View {
 
 		Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		paint.setColor(Color.BLACK);
-		paint.setStyle(Paint.Style.FILL);
-		canvas.drawCircle(200, 150, 100, paint);
+//		paint.setStyle(Paint.Style.FILL);
+//		canvas.drawCircle(200, 150, 100, paint);
+//
+//		paint.setStyle(Paint.Style.STROKE);
+//		paint.setStrokeWidth(5);
+//		canvas.drawCircle(500, 150, 100, paint);
+//
+//		paint.setStyle(Paint.Style.FILL);
+//		paint.setColor(Color.BLUE);
+//		canvas.drawCircle(200, 450, 100, paint);
+//
+//		paint.setStyle(Paint.Style.STROKE);
+//		paint.setColor(Color.BLACK);
+//		paint.setStrokeWidth(30);
+//		canvas.drawCircle(500, 450, 100, paint);
 
-		paint.setStyle(Paint.Style.STROKE);
-		paint.setStrokeWidth(5);
-		canvas.drawCircle(500, 150, 100, paint);
+		Path path = new Path();
+		path.addCircle(300,300,200, Path.Direction.CW);
+		path.addCircle(600,300,200, Path.Direction.CCW);
+		path.setFillType(Path.FillType.EVEN_ODD);
+		canvas.drawPath(path,paint);
 
-		paint.setStyle(Paint.Style.FILL);
-		paint.setColor(Color.BLUE);
-		canvas.drawCircle(200, 450, 100, paint);
-
-		paint.setStyle(Paint.Style.STROKE);
-		paint.setColor(Color.BLACK);
-		paint.setStrokeWidth(30);
-		canvas.drawCircle(500, 450, 100, paint);
 	}
 }
