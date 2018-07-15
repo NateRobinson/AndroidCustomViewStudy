@@ -33,6 +33,7 @@ public class Practice07SetUnderlineTextView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        paint.setUnderlineText(true);
         canvas.drawText(text, 50, 100, paint);
     }
 }

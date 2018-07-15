@@ -33,6 +33,7 @@ public class Practice06SetStrikeThruTextView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        paint.setStrikeThruText(true);
         canvas.drawText(text, 50, 100, paint);
     }
 }
