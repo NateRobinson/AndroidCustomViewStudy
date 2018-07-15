@@ -29,6 +29,7 @@ proguard/
 .navigation/
 /app/build
 /practice2/build
+/practice3/build
 
 # Android Studio captures folder
 captures/
