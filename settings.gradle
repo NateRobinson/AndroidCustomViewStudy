@@ -1,3 +1,5 @@
 include ':app'
 include ':practice2'
 include ':practice3'
+include ':practice4'
+include ':practice5'

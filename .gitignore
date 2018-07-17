@@ -30,6 +30,8 @@ proguard/
 /app/build
 /practice2/build
 /practice3/build
+/practice4/build
+/practice5/build
 
 # Android Studio captures folder
 captures/
