@@ -16,6 +16,8 @@ A repo for note my personal Android custom view study process.
 	1. apk: [1-4.apk](https://github.com/NateRobinson/AndroidCustomViewStudy/blob/master/apks/1-4.apk)
  5. [HenCoder 1-5 绘制过程简述 study Note](https://github.com/NateRobinson/AndroidCustomViewStudy/blob/master/docs/1-5.md) 
 	1. apk: [1-5.apk](https://github.com/NateRobinson/AndroidCustomViewStudy/blob/master/apks/1-5.apk)
+ 6. [HenCoder 1-6 属性动画 Property Animation（上手篇）study Note](https://github.com/NateRobinson/AndroidCustomViewStudy/blob/master/docs/1-6.md) 
+	1. apk: [1-6.apk](https://github.com/NateRobinson/AndroidCustomViewStudy/blob/master/apks/1-6.apk)
  	
 ## 实践模仿 [TODO]
  1. [https://github.com/florent37/DiagonalLayout](https://github.com/florent37/DiagonalLayout)
